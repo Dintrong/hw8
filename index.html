@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>我的自我介紹</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+    <!-- 主頁 -->
+    <div data-role="page" id="home">
+        <div data-role="header">
+            <h1>我的自我介紹</h1>
+        </div>
+        <div data-role="content">
+            <h2>個人資訊</h2>
+            <p>姓名:阮中新</p>
+            <p>性別：男</p>
+            <p>年齡:23歲</p>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#home" data-transition="pop" class="ui-btn-active ui-state-persist">主頁</a></li>
+                    <li><a href="#interests" data-transition="pop">興趣愛好</a></li>
+                    <li><a href="#education" data-transition="pop">學歷經歷</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- 興趣愛好 -->
+    <div data-role="page" id="interests">
+        <div data-role="header">
+            <h1>我的自我介紹</h1>
+        </div>
+        <div data-role="content">
+            <h2>興趣愛好</h2>
+            <p>我喜歡打羽毛球、爬山、旅遊等活動。</p>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                     <li><a href="#home"data-transition="fade">主頁</a></li>
+                    <li><a href="#interests" data-transition="fade" class="ui-btn-active ui-state-persist">興趣愛好</a></li>
+                    <li><a href="#education"data-transition="fade">學歷經歷</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- 學歷經歷 -->
+    <div data-role="page" id="education">
+        <div data-role="header">
+            <h1>我的自我介紹</h1>
+        </div>
+
+<div data-role="content">
+            <h3>學歷經歷</h3>
+           
+            <p>2023-年至今,景文科技大學</p>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                   <li><a href="#home"data-transition="flip">主頁</a></li>
+                    <li><a href="#interests" data-transition="flip">興趣愛好</a></li>
+                    <li><a href="#education"data-transition="flip"class="ui-btn-active ui-state-persist">學歷經歷</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+        
